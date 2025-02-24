@@ -1,0 +1,6 @@
+name = Views Rules Test
+backdrop = 1.x
+type = module
+dependencies[] = views_rules
+package = Rules
+hidden = TRUE
