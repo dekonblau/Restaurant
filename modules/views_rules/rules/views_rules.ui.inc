@@ -99,7 +99,7 @@ class ViewsRulesLoopUI extends RulesActionContainerUI {
       $view = $this->element->getView();
       $link = array(
         'title' => t('edit view display'),
-        'href' => 'admin/structure/views/view/' . $view->name . '/edit/' . $view->current_display,
+        'href' => 'admin/structure/views/view/' . $view->name . '/configure/' . $view->current_display,
       );
       array_unshift($ops['data']['#links'], $link);
     }
